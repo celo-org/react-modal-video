@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 
 export default class ModalVideo extends React.Component {
 
@@ -76,6 +76,8 @@ export default class ModalVideo extends React.Component {
       return this.getYoutubeUrl(opt.youtube, videoId)
     } else if (opt.channel === 'vimeo') {
       return this.getVimeoUrl(opt.vimeo, videoId)
+    } else {
+      return `${videoId}`
     }
   }
 

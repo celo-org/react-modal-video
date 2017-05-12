@@ -19,7 +19,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})} />
+        <ModalVideo channel='other' isOpen={this.state.isOpen} videoId='http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_2160p_60fps_stereo_abl.mp4' onClose={() => this.setState({isOpen: false})} />
         <button onClick={this.openModal}>Open</button>
       </div>
     )
