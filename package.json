@@ -40,8 +40,8 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "react": ">= 15.4.2",
-    "react-dom": ">= 15.4.2",
+    "react": ">= 15.4.1",
+    "react-dom": ">= 15.4.1",
     "react-transition-group": ">= 1.1.3"
   }
 }
